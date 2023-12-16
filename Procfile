@@ -1,1 +1,1 @@
-web: gunicorn NagoyameshiApp.wsgi --log-file -
+web: gunicorn nagoyameshi.wsgi --log-file -
