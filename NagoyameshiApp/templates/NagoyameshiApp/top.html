@@ -1,0 +1,30 @@
+<!-- base.htmlを継承する -->
+{% extends 'NagoyameshiApp/base.html' %}
+
+<!-- ページタイトル -->
+{% block title %}nagoyameshi{% endblock %}
+
+<!-- コンテンツ本体 -->
+{% block content %}
+<!-- load staticはbase.htmlだとエラーになったのでこの位置にした -->
+{% load static %}
+
+<main>
+  <!-- カルーセルここから -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'img/misokatsu.jpg' %}" class="d-block w-100" alt="味噌カツ">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/sushi.jpg' %}" class="d-block w-100" alt="寿司">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/humburger.jpg' %}" class="d-block w-100" alt="ハンバーガー">
+      </div>
+    </div>
+  </div>
+  <!-- カルーセルここまで -->
+</main>
+
+{% endblock content %}
