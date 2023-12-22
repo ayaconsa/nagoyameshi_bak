@@ -135,6 +135,7 @@ STATIC_URL = 'static/'
 # collectstaticコマンドを実行した際に収集されたstaticファイルを配置する場所の設定）
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+# 参照するstaticフォルダを指定
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "NagoyameshiApp/static")
 ]
