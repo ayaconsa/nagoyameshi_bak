@@ -1,0 +1,70 @@
+<!-- base.htmlを継承する -->
+{% extends 'NagoyameshiApp/base.html' %}
+
+<!-- ページタイトル -->
+{% block title %}nagoyameshi{% endblock %}
+
+<!-- コンテンツ本体 -->
+{% block content %}
+{% load static %}
+
+<header>
+    <div class="my_header">
+      <!-- **************ロゴとナビゲーションバーここから -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary my_navbar">
+        <div class="container-fluid">
+          <!-- ロゴ -->
+          <a class="navbar-brand my_navbar_brand" href="{% url "top" %}">Nagoyameshi</a>
+          <!-- ボタンの表示・非表示 -->
+          <button class="navbar-toggler my_navbar_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 新規会員登録・ログインボタン -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link my_nav_link" href="#">新規会員登録</a>
+                </li>
+                <li class="nav-item my_nav_item">
+                <a class="nav-link my_nav_link" href="#">ログイン</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <!-- **************ロゴとナビゲーションバーここまで -->
+
+
+
+    <div class="container">
+    <form method="POST" action="{% url 'create' %}">
+      {% csrf_token %}
+      <label>ユーザーID</label>
+      {{ form.username }}
+      {{ form.username.errors }}
+      <label>パスワード</label>
+      {{ form.password1 }}
+      {{ form.password1.errors }}
+      <label>パスワード(確認)</label>
+      {{ form.password2 }}
+      {{ form.password2.errors }}
+      <button type = "submit">登録</button>
+    </form>
+    </div>
+
+
+    <!-- ********フッター -->
+<footer>
+    <div class="footer_brand">
+      <span>Nagoyameshi</span>
+    </div>
+    <div class="footer_link">
+      <a href="#">会社概要</a>
+      <a href="#">利用規約</a>
+    </div>
+    <div class="footer_copyright">
+      <span>&copy;NAGOYAMESHI ALL rights reserved.</span>
+    </div>
+
+{% endblock content %}
