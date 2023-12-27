@@ -1,18 +1,26 @@
-
-
 /* ******ロゴとナビゲーションバー */
 
-.my_header {
+.wrapper {
+  min-height: 100vh;
   position: relative;
-  height: 300px;
-  margin: 10 0 10 0;
+  padding-bottom: 240px;
+  box-sizing: border-box;
 }
 
-.my_navbar {
+
+/* トップページ用 */
+.my_header_top_page {
+  position: relative;
+  height: 300px;
+}
+
+.my_navbar_top_page {
   position: absolute;
   width: 100%;
   z-index: 1;
 }
+/* トップページ用ここまで */
+
 
 .my_navbar_brand {
   color: #FFFFFF;
@@ -59,11 +67,11 @@
   display: inline-block;
 }
 
+/* カーソル乗せると透明になっちゃうのどうにかする */
 .search_btn {
   color: #FFFFFF;
   background-color: #B31312;
 }
-
 
 
 /* ********評価の高いお店 */
@@ -131,15 +139,40 @@ h2 {
 /* フッター */
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #2B2A4C;
   text-align: center;
   padding: 10px;
 }
 
 .footer_brand {
+  margin: 20px;
+}
+
+.footer_brand > a {
   color: #FFFFFF;
   font-size: 20px;
+  text-decoration: none;
   margin: 20px;
+}
+
+.footer_brand > a:link {
+  color: #ffffff;
+}
+
+.footer_brand > a:visited {
+  color: #ffffff;
+}
+
+.footer_brand > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer_brand > a:active {
+  color: #ffffff;
 }
 
 .footer_link {
@@ -176,3 +209,24 @@ footer {
 }
 
 
+/* パンくずリスト */
+
+.breadcrumb {
+  list-style: none;
+}
+
+/* 会社概要 */
+
+.my_table {
+  max-width: 500px;
+}
+
+.my_table_tr {
+  width: 30%;
+}
+
+/* 利用規約 */
+
+.my_terms_of_use {
+  max-width: 700px;
+}
