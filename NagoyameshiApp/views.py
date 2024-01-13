@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 
 from django.views.generic import TemplateView
 from django.views.generic.list import ListView, BaseListView
+from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 from django.urls import reverse_lazy
@@ -61,12 +62,21 @@ class LogoutView(LoginRequiredMixin, LogoutView):
 
 # *********店舗機能****************
     
-class RestaurantListView(ListView):
+
+# 一旦、TemplateViewにした。DBの整理後、ListViewにする。
+class RestaurantListView(TemplateView):
     model = Restaurant
     template_name = "NagoyameshiApp/list.html"
     # context_object_name = ''
     # テンプレートに渡されるオブジェクト名を任意のものに指定できる
     paginate_by = 10
+    
+# 一旦、TemplateViewにした。DBの整理後、DetailViewにする。
+class RestaurantDetailView(TemplateView):
+    model = Restaurant
+    template_name = "NagoyameshiApp/detail.html"
+    
+    
 
 class RestaurantCreateView(LoginRequiredMixin, CreateView):
     model = Restaurant
