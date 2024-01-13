@@ -63,7 +63,7 @@ class LogoutView(LoginRequiredMixin, LogoutView):
 # *********店舗機能****************
     
 
-# 一旦、TemplateViewにした。DBの整理後、ListViewにする。
+# ユーザー画面では、TemplateViewにしてしまうことも多い
 class RestaurantListView(TemplateView):
     model = Restaurant
     template_name = "NagoyameshiApp/list.html"
@@ -71,7 +71,7 @@ class RestaurantListView(TemplateView):
     # テンプレートに渡されるオブジェクト名を任意のものに指定できる
     paginate_by = 10
     
-# 一旦、TemplateViewにした。DBの整理後、DetailViewにする。
+# ユーザー画面では、TemplateViewにしてしまうことも多い
 class RestaurantDetailView(TemplateView):
     model = Restaurant
     template_name = "NagoyameshiApp/detail.html"

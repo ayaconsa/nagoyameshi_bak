@@ -8,7 +8,6 @@ class Restaurant(models.Model):
     explanation = models.CharField(max_length=200)
     price_min = models.PositiveIntegerField()
     price_max = models.PositiveIntegerField()
-    # ↓余裕があったら郵便番号から入力できるようにする
     address = models.CharField(max_length=200)
     tel = models.CharField(max_length=11)
     open_time = models.CharField(max_length=5)
@@ -21,3 +20,4 @@ class User(models.Model):
     username = models.CharField(max_length=50)
     password1 = models.CharField(max_length=20)
     password2 = models.CharField(max_length=20)
+
