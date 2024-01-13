@@ -16,6 +16,7 @@ from django.contrib.auth.models import User
 from .models import Restaurant
 from .forms import UserCreateForm
 
+
 # **********トップページ・会社概要・利用規約**********
 
 class TopView(TemplateView):
@@ -91,3 +92,10 @@ class RestaurantDeleteView(LoginRequiredMixin, DeleteView):
     model = Restaurant
     template_name = "Nagoyameshi/detail.html"
     success_url = reverse_lazy('list')
+    
+    
+
+# *********管理用画面*********
+
+class ManageTopView(TemplateView):
+    template_name = "Nagoyameshi/manage_top.html"

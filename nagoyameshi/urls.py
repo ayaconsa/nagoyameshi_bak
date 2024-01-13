@@ -16,7 +16,6 @@ urlpatterns = [
     path('detail/', views.RestaurantDetailView.as_view(), name="detail"),
     path('detail/', views.RestaurantDeleteView.as_view(), name="delete"),
     
-    # path('manage/', ),
-    
+    path('manage/', views.ManageTopView.as_view(), name="manage_top"),
     
 ]
