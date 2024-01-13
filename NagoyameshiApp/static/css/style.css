@@ -238,6 +238,7 @@ footer {
   background-color: #EEE2DE;
   border-radius: 15px;
   height: 550px;
+  margin-bottom: 16px;
 }
 
 .list_search {
@@ -296,4 +297,3 @@ footer {
   font-size: x-large;
   font-weight: 700;
 }
-

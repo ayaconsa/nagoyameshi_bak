@@ -79,4 +79,5 @@ class RestaurantUpdateView(LoginRequiredMixin, UpdateView):
 
 class RestaurantDeleteView(LoginRequiredMixin, DeleteView):
     model = Restaurant
+    template_name = "Nagoyameshi/detail.html"
     success_url = reverse_lazy('list')
