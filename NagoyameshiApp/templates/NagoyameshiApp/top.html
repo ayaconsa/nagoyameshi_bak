@@ -31,7 +31,7 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link my_nav_link" href="{% url 'create' %}">新規会員登録</a>
+                    <a class="nav-link my_nav_link" href="{% url 'account_create' %}">新規会員登録</a>
                   </li>
                   <li class="nav-item my_nav_item">
                     <a class="nav-link my_nav_link" href="{% url 'login' %}">ログイン</a>
@@ -63,7 +63,7 @@
           <div class="container search_box">
             <form>
               <input type="text" placeholder="店舗名・エリア・カテゴリ" class="form-control search_txt">
-              <a class="btn search_btn" href="{% url 'list' %}">検索</a>
+              <a class="btn search_btn" href="{% url 'restaurant_list' %}">検索</a>
             </form>
           </div>
           <!-- **************検索ボックスここまで -->
@@ -85,7 +85,7 @@
               <!-- 要）カードの中身修正 -->
               <!-- 要）カラムの調整（スマホで2列になるように） -->
               <div class="col">
-                <a href="{% url 'detail' %}" class="link-dark card-link">
+                <a href="{% url 'restaurant_detail' %}" class="link-dark card-link">
                   <div class="card h-100">
                     <img src="{% static 'img/misokatsu.jpg' %}" class="card-img-top" alt="味噌カツ">
                     <div class="card-body">

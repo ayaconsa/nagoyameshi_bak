@@ -301,6 +301,10 @@ footer {
 
 /* 店舗詳細ページ */
 /* ▼タブ */
+#my_tabcontrol {
+  margin-bottom: 0;
+}
+
 #my_tabcontrol a {
   display: inline-block;            /* インラインブロック化 */
   border-width: 1px 1px 0px 1px;    /* 下以外の枠線を引く */
@@ -313,7 +317,6 @@ footer {
   background-color: white;        /* 背景色：白色 */
   font-weight: bold;                /* 太字 */
   position: relative;               /* JavaScriptでz-indexを調整するために必要 */
-  margin-bottom: 0;
 }
 /* ▼タブにマウスポインタが載った際(任意) */
 #my_tabcontrol a:hover {
