@@ -29,7 +29,7 @@
         </div>
         <form>
           <input type="text" placeholder="店舗名・カテゴリ" class="form-control list_search_box">
-          <button class="btn search_btn list_search_item">検索</button>
+          <button class="btn search_btn list_search_item" href="{% url 'restaurant_list' %}">検索</button>
         </form>
       </div>
 
@@ -56,7 +56,7 @@
             <option value="焼肉">焼肉</option>
             <option value="ハンバーガー">ハンバーガー</option>
           </select>
-          <button class="btn search_btn list_search_item">検索</button>
+          <button class="btn search_btn list_search_item" href="{% url 'restaurant_list' %}">検索</button>
         </form>
       </div>
 
@@ -95,7 +95,7 @@
             <option value="30,000">30,000 円</option>
           </select>
           </div>
-          <button class="btn search_btn list_search_item">検索</button>
+          <button class="btn search_btn list_search_item" href="{% url 'restaurant_list' %}">検索</button>
         </form>
       </div>
 
@@ -125,6 +125,7 @@
       <!-- 店舗カード -->
       <div class="mb-3">
         <!-- 店舗１ -->
+        <a href="{% url 'restaurant_detail' %}">
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
@@ -132,83 +133,92 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">店舗名</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">カテゴリ</small></p>
+                <h5 class="card-title">味噌かつサムライ</h5>
+                <p class="card-text">秘伝のタレを使った老舗の味</p>
+                <p class="card-text"><small class="text-body-secondary">味噌カツ</small></p>
                 <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
               </div>
             </div>
           </div>
         </div>
+        </a>
 
         <!-- 店舗２ -->
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">店舗名</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">カテゴリ</small></p>
-                <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+        <a href="{% url 'restaurant_detail' %}">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">味噌かつサムライ</h5>
+                  <p class="card-text">秘伝のタレを使った老舗の味</p>
+                  <p class="card-text"><small class="text-body-secondary">味噌カツ</small></p>
+                  <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
+          </a>
+  
         <!-- 店舗３ -->
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">店舗名</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">カテゴリ</small></p>
-                <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+        <a href="{% url 'restaurant_detail' %}">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">味噌かつサムライ</h5>
+                  <p class="card-text">秘伝のタレを使った老舗の味</p>
+                  <p class="card-text"><small class="text-body-secondary">味噌カツ</small></p>
+                  <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
+          </a>
+  
         <!-- 店舗４ -->
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">店舗名</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">カテゴリ</small></p>
-                <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+        <a href="{% url 'restaurant_detail' %}">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">味噌かつサムライ</h5>
+                  <p class="card-text">秘伝のタレを使った老舗の味</p>
+                  <p class="card-text"><small class="text-body-secondary">味噌カツ</small></p>
+                  <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
+          </a>
+  
         <!-- 店舗５ -->
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">店舗名</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">カテゴリ</small></p>
-                <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+        <a href="{% url 'restaurant_detail' %}">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{% static 'img/misokatsu.jpg' %}" class="img-fluid rounded-start" alt="味噌カツ">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">味噌かつサムライ</h5>
+                  <p class="card-text">秘伝のタレを使った老舗の味</p>
+                  <p class="card-text"><small class="text-body-secondary">味噌カツ</small></p>
+                  <p class="card-text"><small class="text-body-secondary">&#9733; 3.5</small></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
+          </a>
+  
 
       </div>
 
