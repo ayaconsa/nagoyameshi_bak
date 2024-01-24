@@ -1,0 +1,8 @@
+from django.views.generic import TemplateView
+from ...models import Restaurant
+
+
+# 店舗詳細（→ 予約とレビューを会員限定にするにはどうしたらいいのか）
+class RestaurantDetailView(TemplateView):
+    model = Restaurant
+    template_name = "NagoyameshiApp/restaurant_detail.html"
