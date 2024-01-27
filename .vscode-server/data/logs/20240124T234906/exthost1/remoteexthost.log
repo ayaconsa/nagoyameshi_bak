@@ -1,0 +1,119 @@
+2024-01-24 23:49:09.291 [info] Extension host with pid 237 started
+2024-01-24 23:49:09.291 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock'
+2024-01-24 23:49:09.353 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-01-24 23:49:09.362 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-24 23:49:09.445 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock': The lock looks stale, waiting for 2s.
+2024-01-24 23:49:10.360 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-24 23:49:10.367 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-01-24 23:49:10.934 [warning] Using default string since no string found in i18n bundle that has the key: You need to select a Python interpreter before you start debugging.
+
+Tip: click on "Select Interpreter" in the status bar.
+2024-01-24 23:49:10.938 [warning] Using default string since no string found in i18n bundle that has the key: The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-24 23:49:10.940 [warning] Using default string since no string found in i18n bundle that has the key: Python is unable to parse the code provided. Please
+    turn off Smart Send if you wish to always run line by line or explicitly select code
+    to force run. See [logs](command:{0}) for more details
+2024-01-24 23:49:10.946 [warning] Using default string since no string found in i18n bundle that has the key: The Microsoft Python Language Server has reached end of life. Your language server has been set to the default for Python in VS Code, Pylance.
+
+If you'd like to change your language server, you can learn about how to do so [here](https://devblogs.microsoft.com/python/python-in-visual-studio-code-may-2021-release/#configuring-your-language-server).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-24 23:49:11.453 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock': The lock looks stale even after waiting for 2s.
+2024-01-24 23:49:11.455 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock': Deleting a stale lock.
+2024-01-24 23:49:11.467 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/6961fda44a98e688e75aabc92c96b1a3/vscode.lock': Lock acquired.
+2024-01-24 23:49:11.548 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-24 23:49:11.549 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-24 23:49:12.028 [info] Eager extensions activated
+2024-01-24 23:49:12.030 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 23:49:12.031 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-24 23:49:12.517 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-01-24 23:49:18.839 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:django-html'
+2024-01-24 23:49:18.840 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-27 08:39:42.944 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-01-27 15:34:25.712 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-01-27 15:34:25.714 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-01-27 15:34:25.717 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-01-27 15:44:01.758 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at b.z (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:17514)
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:15966)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at o.acceptChunk (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:12223)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:11510
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:676:4915)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at j.onload (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:676:3306)
+2024-01-27 15:44:01.759 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAExit (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:35)
+    at m.S (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16966)
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at b.z (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:17514)
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:15966)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at o.acceptChunk (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:12223)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:616:11510
+    at o.value (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:676:4915)
+    at u.y (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at j.onload (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:676:3306)
+2024-01-27 15:49:18.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 252
+2024-01-27 15:49:42.949 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2024-01-27 15:50:07.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 258
+2024-01-27 15:50:30.799 [warning] [Decorations] CAPPING events from decorations provider vscode.git 258
+2024-01-27 15:50:54.459 [warning] [Decorations] CAPPING events from decorations provider vscode.git 258
+2024-01-27 15:51:18.181 [warning] [Decorations] CAPPING events from decorations provider vscode.git 258
+2024-01-27 15:51:42.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 259
+2024-01-27 15:52:07.057 [warning] [Decorations] CAPPING events from decorations provider vscode.git 263
+2024-01-27 15:52:30.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:52:54.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:02.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:11.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:19.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:28.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:36.991 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:45.190 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:53:53.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:02.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:10.999 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:19.521 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:27.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:36.396 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:44.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:54:53.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:01.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:10.215 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:18.778 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:27.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:35.825 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:44.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:55:53.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:02.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:10.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:19.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:27.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:36.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:45.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:56:53.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:57:02.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:57:10.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261
+2024-01-27 15:57:19.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 261

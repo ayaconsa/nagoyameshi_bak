@@ -33,15 +33,6 @@ from NagoyameshiApp.views.superuser.user_list import UserListView
 from NagoyameshiApp.views.superuser.sales import SalesView
 from NagoyameshiApp.views.superuser.user_number import UserNumberView
 
-from NagoyameshiApp.views.superuser.admin_restaurant_list import AdminRestaurantListView
-from NagoyameshiApp.views.superuser.admin_restaurant_detail import AdminRestaurantDetailView
-from NagoyameshiApp.views.superuser.admin_restaurant_edit import AdminRestaurantEditView
-from NagoyameshiApp.views.superuser.admin_booking_confirmation import AdminBookingConfirmationView
-from NagoyameshiApp.views.superuser.admin_review_confirmation import AdminReviewConfirmationView
-
-
-
-
 
 
 urlpatterns = [

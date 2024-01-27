@@ -1,0 +1,19 @@
+2024-01-24 23:49:06.635 [info] 
+
+
+
+
+2024-01-24 23:49:06.677 [info] Extension host agent started.
+2024-01-24 23:49:06.769 [debug] Removing uninstalled extensions: ["ms-ceintl.vscode-language-pack-ja-1.85.2024011709"]
+2024-01-24 23:49:06.920 [info] [127.0.0.1][6eb3711f][ManagementConnection] New connection established.
+2024-01-24 23:49:06.999 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-ja /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709
+2024-01-24 23:49:07.082 [info] Log level changed to info
+2024-01-24 23:49:07.321 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] New connection established.
+2024-01-24 23:49:07.774 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] <237> Launched Extension Host Process.
+2024-01-24 23:49:08.174 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024011709.6d688ec2.vsctmp'
+    at a.create (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29559)
+    at g (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29674)
+    at n.fb (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:35177)
+    at n.stat (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:27623)
+    at async h.stat (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:14733)
+    at async _.tb (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:71700)

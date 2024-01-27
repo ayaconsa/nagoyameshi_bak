@@ -160,3 +160,4 @@
 2024-01-24 15:56:41.803 [info] DAP Server launched with command: /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter
 2024-01-24 15:56:41.979 [info] Send text to terminal:  cd /root ; /usr/bin/env /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 50669 -- /root/manage.py runserver 8001 
 2024-01-24 15:56:43.549 [info] Connecting to DAP Server at:  127.0.0.1:45985
+2024-01-24 16:12:57.938 [info] Discover tests for workspace name: root - uri: /root/NagoyameshiApp/models/restaurant.py

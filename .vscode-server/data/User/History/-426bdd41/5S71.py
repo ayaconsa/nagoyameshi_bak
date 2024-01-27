@@ -37,7 +37,6 @@ from NagoyameshiApp.views.superuser.admin_restaurant_list import AdminRestaurant
 from NagoyameshiApp.views.superuser.admin_restaurant_detail import AdminRestaurantDetailView
 from NagoyameshiApp.views.superuser.admin_restaurant_edit import AdminRestaurantEditView
 from NagoyameshiApp.views.superuser.admin_booking_confirmation import AdminBookingConfirmationView
-from NagoyameshiApp.views.superuser.admin_review_confirmation import AdminReviewConfirmationView
 
 
 
