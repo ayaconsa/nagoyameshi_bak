@@ -21,3 +21,17 @@
 2024-01-27 15:51:35.829 [info] Discover tests for workspace name: root - uri: /root/nagoyameshi/urls.py
 2024-01-27 15:51:48.776 [info] Discover tests for workspace name: root - uri: /root/nagoyameshi/urls.py
 2024-01-27 15:52:11.307 [info] Discover tests for workspace name: root - uri: /root/nagoyameshi/urls.py
+2024-01-27 16:07:41.010 [info] DAP Server launched with command: /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter
+2024-01-27 16:07:41.208 [info] Send text to terminal:  cd /root ; /usr/bin/env /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56095 -- /root/manage.py runserver 8001 
+2024-01-27 16:07:42.681 [info] Connecting to DAP Server at:  127.0.0.1:58689
+2024-01-27 16:08:29.295 [info] Running installed packages checker:  /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py /root/requirements.txt
+2024-01-27 16:08:29.296 [info] > /usr/local/bin/python ./.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py ./requirements.txt
+2024-01-27 16:20:06.960 [info] Discover tests for workspace name: root - uri: /root/nagoyameshi/urls.py
+2024-01-27 16:20:08.843 [info] Connecting to DAP Server at:  127.0.0.1:58689
+2024-02-03 01:11:24.347 [info] DAP Server launched with command: /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter
+2024-02-03 01:11:24.661 [info] Send text to terminal:  cd /root ; /usr/bin/env /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 37243 -- /root/manage.py runserver 8001 
+2024-02-03 01:11:26.694 [info] Connecting to DAP Server at:  127.0.0.1:35569
+2024-02-03 01:13:11.078 [info] Discover tests for workspace name: root - uri: /root/NagoyameshiApp/views/superuser/admin_top.py
+2024-02-03 01:13:12.218 [info] Connecting to DAP Server at:  127.0.0.1:35569
+2024-02-03 01:15:58.582 [info] Discover tests for workspace name: root - uri: /root/nagoyameshi/urls.py
+2024-02-03 01:16:00.233 [info] Connecting to DAP Server at:  127.0.0.1:35569

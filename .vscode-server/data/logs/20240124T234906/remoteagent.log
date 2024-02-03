@@ -17,3 +17,110 @@
     at n.stat (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:27623)
     at async h.stat (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:14733)
     at async _.tb (/root/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:71700)
+2024-01-27 16:20:10.395 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-27 16:20:10.403 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-27 16:26:07.695 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-27 16:26:08.100 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-27 16:26:47.174 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 16:53:01.752 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 16:56:20.063 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 17:09:20.024 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 17:26:57.067 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 18:03:04.992 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 18:22:42.044 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 18:25:54.925 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 18:41:42.995 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 19:17:29.013 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 19:34:53.954 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 19:55:55.915 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 20:45:15.757 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 21:46:36.504 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 21:47:03.498 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-27 21:47:03.703 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-27 21:52:36.419 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-27 21:52:54.912 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-27 21:52:55.106 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-27 23:52:24.690 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 01:22:21.719 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 02:57:43.935 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 02:58:02.798 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-28 02:58:03.064 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-28 03:15:02.383 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-28 03:15:02.579 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-28 03:27:11.873 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 12:31:21.394 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-28 12:31:21.607 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-28 12:31:48.719 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 12:32:10.439 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-28 12:32:10.729 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-28 14:31:42.226 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 14:32:27.233 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 14:33:47.110 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 16:32:55.537 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 16:33:09.306 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 19:48:55.825 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 19:49:09.573 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-28 23:49:21.036 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 02:02:21.104 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 05:27:30.329 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 06:43:25.187 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 10:15:15.441 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 18:28:33.751 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-29 23:02:47.119 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-01-29 23:02:47.454 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-01-30 01:02:14.632 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 02:40:50.672 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 04:40:59.637 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 04:41:15.400 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 08:41:08.498 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 09:14:41.191 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 11:27:17.078 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-30 19:40:23.927 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-31 12:04:08.635 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-31 12:06:32.974 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-31 15:40:23.825 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-31 15:41:15.461 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-31 20:20:23.230 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-01 04:36:50.604 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-02-01 04:36:50.837 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-02-01 13:12:28.541 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:28.542 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:28.628 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.429 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.696 [info] Extensions is already requested to install ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.841 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109: ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.846 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109
+2024-02-01 13:12:29.851 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.859 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:12:29.904 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ja-1.85.2024012409
+2024-02-01 13:12:29.954 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.407 [info] Downloaded extension to file:///root/.vscode-server/extensionsCache/b2c1d70e-bc14-4a3a-ae09-b6c102953976
+2024-02-01 13:22:28.451 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.470 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.583 [info] Deleted existing extension from disk ms-ceintl.vscode-language-pack-ja /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109
+2024-02-01 13:22:28.867 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109: ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.872 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2024013109
+2024-02-01 13:22:28.878 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.886 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-02-01 13:22:28.966 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-02-01 21:59:27.668 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-02-01 21:59:27.873 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-02-01 23:59:42.841 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 00:29:32.807 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 05:07:47.158 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 05:11:47.107 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 05:28:15.912 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 07:09:48.344 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 09:10:02.462 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 09:29:33.310 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 09:30:51.055 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-02 22:36:55.451 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] The client has reconnected.
+2024-02-02 22:36:55.665 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has reconnected.
+2024-02-03 00:37:10.607 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-03 00:55:21.142 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-03 01:52:31.843 [info] [127.0.0.1][6eb3711f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-03 01:52:32.925 [info] [127.0.0.1][d76881fa][ExtensionHostConnection] <237> Extension Host Process exited with code: 0, signal: null.
