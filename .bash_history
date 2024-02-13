@@ -21,3 +21,5 @@ git commit -m "管理者ページの整理"
 git push github main
  cd /root ; /usr/bin/env /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56095 -- /root/manage.py runserver 8001 
  cd /root ; /usr/bin/env /usr/local/bin/python /root/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 37243 -- /root/manage.py runserver 8001 
+echo /bin/bash
+python3 manage.py createsuperuser

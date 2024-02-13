@@ -1,3 +1,0 @@
-2024-02-01 13:22:29.973 [error] node #9: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Client network socket disconnected before secure TLS connection was established
-2024-02-01 13:24:34.889 [error] node #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST Client network socket disconnected before secure TLS connection was established
-2024-02-01 13:25:03.238 [error] node #12: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST Client network socket disconnected before secure TLS connection was established
